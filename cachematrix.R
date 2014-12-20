@@ -11,9 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
       getinv <- function() m               ##getinv<-returns the value of inverse of a matrix when called returns NULL if value not assigned    
       list(setm = setm, getm = getm,              
        setinv = setinv,getinv = getinv)
-
-
-}
+   }
 
 ##takes list returned by makeCacheMatrix as argument
 cacheSolve <- function(x, ...) {
